@@ -1,0 +1,5 @@
+tags["Environment"] == /^(Dev|Staging|Prod|Shared|Common)$/
+tags["CostCenter"] !empty
+tags["Owner"] == /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+tags["Region"] !empty
+tags["Project"] !empty
